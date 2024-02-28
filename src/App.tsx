@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import styled from 'styled-components';
 import { StyledButton } from './components/Button.styled';
 import { StyledText } from './components/Text.styled';
@@ -10,7 +11,7 @@ import img from './assets/images/Rectangle 1.png'
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Box>
         <Img src={img}/>
         <StyledTitle
